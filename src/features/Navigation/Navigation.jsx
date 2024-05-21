@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Cart from "../../assets/shopping-cart.png";
-import "./navigation.style.css";
+import "./Navigation.style.css";
 import E_commerce from "../../assets/E-Commerce-Logo.png";
 
 const Navigation = () => {
