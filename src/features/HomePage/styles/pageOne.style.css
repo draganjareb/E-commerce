@@ -37,6 +37,8 @@
 .pageOneText hr {
   background-color: #646cff;
   height: 2px;
+  width: 510px;
+  margin-left: 0;
 }
 
 .button {
