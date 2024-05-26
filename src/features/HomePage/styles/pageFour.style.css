@@ -1,0 +1,65 @@
+.pageFourWrapper {
+  height: 100vh;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageFourHolder {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: -35px;
+}
+
+.pageFourOffer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.pageFourCard {
+  max-width: 250px;
+  width: 100%;
+  background-color: lightgrey;
+  padding: 20px 5px;
+  height: 350px;
+}
+
+.pageFourCard img {
+  max-width: 120px;
+  width: 100%;
+  height: 140px;
+  position: relative;
+  z-index: 100;
+  bottom: 80px;
+}
+
+.cartText {
+  margin-top: -60px;
+}
+
+.pageFourCard h2 {
+  color: orangered;
+}
+
+.pageFourCard button {
+  background-color: orangered;
+}
+
+.pageFourCard button:hover {
+  color: orangered;
+  background-color: #66fcf1;
+}
+
+.pageFourCard h1 {
+  font-size: 34px;
+}
