@@ -1,0 +1,90 @@
+.pageFiveWrapper {
+  background-color: azure;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.pageFiveHolder {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 100px;
+}
+
+.pageFiveTop {
+  background-color: black;
+  color: white;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageFiveTop button {
+  background-color: #66fcf1;
+  color: #646cff;
+  padding: 15px 15px;
+  margin-top: 6px;
+}
+
+.pageFiveTop button:hover {
+  color: blue;
+}
+
+.pageFiveTop input {
+  max-width: 300px;
+  height: 40px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.inputAndButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageFiveButton {
+  background-color: #66fcf1;
+}
+
+.pageFiveUl ul {
+  text-decoration: none;
+}
+
+.pageFiveUl img {
+  max-width: 15px;
+  width: 100%;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.pageFiveBottom {
+  margin-top: 50px;
+}
+
+.pageFiveBottomText {
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.pageFiveUl ul {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  text-align: left;
+  list-style: none;
+  margin-bottom: 5px;
+  font-size: 18px;
+}

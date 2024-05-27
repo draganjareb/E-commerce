@@ -48,15 +48,15 @@
 }
 
 .pageFourCard h2 {
-  color: orangered;
+  color: #646cff;
 }
 
 .pageFourCard button {
-  background-color: orangered;
+  background-color: #646cff;
 }
 
 .pageFourCard button:hover {
-  color: orangered;
+  color: #646cff;
   background-color: #66fcf1;
 }
 
