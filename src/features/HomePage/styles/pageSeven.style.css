@@ -1,0 +1,32 @@
+.pageSevenWrapper {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pageSevenHolder {
+  max-width: 1200px;
+  width: 100%;
+  background-color: #66fcf1;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 15px;
+  color: #646cff;
+  height: 600px;
+}
+
+.pageSevenText {
+  display: flex;
+}
+
+.pageSevenFooterText {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 15px;
+}
