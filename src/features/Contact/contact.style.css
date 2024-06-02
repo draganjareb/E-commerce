@@ -1,0 +1,146 @@
+.contactPageWrapper {
+  color: black;
+  height: 100vh;
+  background-color: azure;
+}
+
+.contactPageHolder {
+  padding-top: 100px;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+.contactPageLeftSite {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+
+  height: 600px;
+  padding: 0px 20px;
+}
+
+.contactPageLeftSite hr {
+  max-width: 500px;
+  width: 100%;
+  height: 1.3px;
+  background-color: black;
+}
+
+.contactPageLeftSite h1 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.contactPageLeftSite p {
+  padding-bottom: 10px;
+}
+
+.contactPageRightSite {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  height: 570px;
+  text-align: left;
+  background-color: #66fcf1;
+}
+
+.contactPageRightSiteData {
+  margin: 0 auto;
+}
+
+.inputDiv p {
+  margin-bottom: 5px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.contactPageRightSite button {
+  max-width: 400px;
+  background-color: orangered;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.inputData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.contactPageRightSite button:hover {
+  background-color: rgb(219, 161, 54);
+  color: rgb(33, 33, 244);
+}
+
+.inputDiv input {
+  background-color: white;
+  max-width: 350px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.inputDivMessage input {
+  background-color: white;
+  max-width: 350px;
+  width: 100%;
+  padding-bottom: 100px;
+  border: none;
+  padding-top: 10px;
+  border-radius: 5px;
+  text-align: top;
+  color: black;
+}
+
+.inputDivMessage p {
+  margin-bottom: 5px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.acceptTag {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+}
+
+.acceptTag span {
+  color: blue;
+}
+
+.imagesAndData {
+  display: flex;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+.contactData h2 {
+  margin: 0;
+}
+
+.contactPictures {
+  max-width: 25px;
+  width: 100%;
+  height: 25px;
+  padding-top: 8px;
+}
+
+.button {
+  margin-top: 5px;
+}
