@@ -1,0 +1,191 @@
+.orderWrapper {
+  color: black;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+}
+
+.orderHolder {
+  max-width: 700px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  background-color: rgb(210, 253, 253);
+}
+
+.orderCart {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.orderCartText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 610px;
+  width: 100%;
+  padding-right: 15px;
+}
+
+.cartProductPictures {
+  max-width: 80px;
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.recycleBin {
+  max-width: 30px;
+  height: 100%;
+  height: 30px;
+}
+
+.nameAndDescription h2 {
+  margin-top: 10px;
+}
+
+.quantity {
+  max-width: 100px;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+.quantity span {
+  font-size: 24px;
+}
+
+.inputCart {
+  max-width: 600px;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: black;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.inputCart::placeholder {
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+.inputAndButton button {
+  background-color: #66fcf1;
+  max-width: 100px;
+  width: 100%;
+  height: 44px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  margin-top: 24px;
+}
+
+.inputAndButton button:hover {
+  background-color: #646cff;
+  color: #66fcf1;
+}
+
+.horizontalLine {
+  border-top: dotted 2px;
+  margin-top: 5px;
+}
+
+.orderHolder h3 {
+  color: grey;
+  font-size: 18px;
+}
+
+.orderData {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.orderData p {
+  margin-top: 15px;
+}
+
+.popust {
+  display: flex;
+  padding-left: 15px;
+  gap: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.orderDataRight {
+  text-align: right;
+}
+
+.orderDataLeft {
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+
+.orderDataRight h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.oderDataLeft h2 {
+  margin-top: 5px;
+}
+
+.orderDataRight p {
+  margin-bottom: 15px;
+}
+
+.tax {
+  padding-top: 15px;
+}
+
+.total {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonBlue button {
+  max-width: 700px;
+  width: 100%;
+  background-color: #646cff;
+  color: white;
+  border-radius: 5px;
+}
+
+.buttonWhite button {
+  max-width: 700px;
+  width: 100%;
+  background-color: white;
+  color: #646cff;
+  border-radius: 5px;
+}
+
+.buttonBlue button:hover {
+  background-color: rgb(120, 222, 234);
+  color: white;
+}
+
+.buttonWhite button:hover {
+  background-color: rgb(120, 222, 234);
+  color: white;
+}
