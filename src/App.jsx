@@ -6,6 +6,7 @@ import About from "./features/About/About";
 import Contact from "./features/Contact/Contact";
 import Offer from "./features/Offer/Offer";
 import Order from "./features/Order/Order";
+import CheckOut from "./features/Checkout/CheckOut";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/offer" element={<Offer />} />
           <Route path="/order" element={<Order />} />
+          <Route path="/check" element={<CheckOut />} />
         </Routes>
       </BrowserRouter>
     </div>

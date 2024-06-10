@@ -1,0 +1,130 @@
+
+.offerWrapper {
+    background-color: azure;
+    color: black;
+    width: 100%;
+    padding-top: 90px;
+  }
+  
+  .offerHolder {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1600px;
+  }
+  
+  .offerCard {
+    gap: 35px;
+    max-width: 1400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-content: space-between;
+  }
+  
+  .offer {
+    margin-bottom: 25px;
+    max-width: 320px;
+    width: 100%;
+  }
+  
+  .offerImageTag {
+    max-width: 330px;
+    width: 100%;
+    background-color: lightgrey;
+  }
+  
+  .offerPictures {
+    max-width: 340px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  
+  .heartBackground {
+    max-width: 35px;
+    width: 100%;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 50;
+    top: -240px;
+    left: 270px;
+    background-color: aliceblue;
+    cursor: pointer;
+  }
+  
+  .offerHeartPictures {
+    max-width: 20px;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    z-index: 70;
+    left: 7px;
+    top: 8px;
+  }
+  
+  .starsPictures {
+    max-width: 20px;
+    height: 20px;
+    width: 100%;
+  }
+  
+  .starsAndNumber {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0px;
+  }
+  
+  .starsAndNumber h4 {
+    padding-bottom: 6px;
+    font-size: 20px;
+  }
+  
+  .price {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price h2 {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  
+  .priceDiv {
+    display: flex;
+  }
+  
+  .priceDiv h2 {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  
+  .priceDiv span {
+    padding-top: 15px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .offerDataTag button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+  }
+  
+  .offerDataTag button:hover {
+    background-color: aqua;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .offerDataTag p {
+    font-weight: 600;
+    margin: 0;
+  }
+  

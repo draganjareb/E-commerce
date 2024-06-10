@@ -1,0 +1,90 @@
+.checkWrapper {
+  padding-top: 90px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+}
+
+.checkHolder {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.inputTag input {
+  width: 98%;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.lock {
+  max-width: 30px;
+  height: 30px;
+  margin-top: 24px;
+}
+
+.nameAndLastName {
+  display: flex;
+}
+
+.city {
+  display: flex;
+  gap: ;
+}
+
+.check1 {
+  display: flex;
+}
+
+.check1 input {
+  max-width: 20px;
+  width: 100%;
+  height: 20px;
+  margin-top: 18px;
+}
+
+.contactInput {
+  display: flex;
+}
+
+.lockAndText {
+  display: flex;
+}
+
+.check2 {
+  display: flex;
+}
+
+.check2 input {
+  max-width: 20px;
+  width: 100%;
+  height: 20px;
+  margin-top: 18px;
+  margin-right: 15px;
+}
+
+.checkHolder button {
+  background-color: #646cff;
+  columns: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.checkHolder button:hover {
+  background-color: aqua;
+  color: black;
+  font-weight: 600;
+}
